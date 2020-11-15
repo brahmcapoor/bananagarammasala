@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import "./App.css";
+import SplashPage from "./SplashPage/SplashPage";
+import Game from "./Game/Game";
+import LevelSelect from "./LevelSelect/LevelSelect";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/* <Game clueSet="test" /> */}
+        <Switch>
+          <Route path="/play/:clueSet">
+            <Game />
+          </Route>
+          <Route path="/select">
+            <LevelSelect />
+          </Route>
+          <Route path="/">
+            <SplashPage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

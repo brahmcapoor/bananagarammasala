@@ -1,0 +1,86 @@
+.splashpage {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #eee;
+  font-size: 8vw;
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title span {
+  max-width: 0;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+@keyframes in {
+  from {
+    max-width: 0;
+    opacity: 0;
+  }
+  90% {
+    max-width: 1em;
+  }
+  to {
+    max-width: 1em;
+    opacity: 1;
+  }
+}
+
+.title span {
+  animation: in 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.title .first {
+  animation-delay: 0.5s;
+}
+.title .second {
+  animation-delay: 1.5s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.logocontainer {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: fade-in 0.05s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+.splash-logo {
+  height: 160px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.startgame {
+  color: #eee;
+  font-style: italic;
+  font-size: 2em;
+}

@@ -1,0 +1,18 @@
+.victorycard {
+  height: 60%;
+  width: 60%;
+  background-color: #fafafa;
+  margin: auto;
+  filter: drop-shadow(0 0 0.75rem #888);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 25%;
+  width: 25%;
+  display: block;
+  margin: auto;
+}
