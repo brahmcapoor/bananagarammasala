@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bananagarammasala/static/css/main.77449923.chunk.css",
-    "main.js": "/bananagarammasala/static/js/main.f8c3b8c9.chunk.js",
-    "main.js.map": "/bananagarammasala/static/js/main.f8c3b8c9.chunk.js.map",
-    "runtime-main.js": "/bananagarammasala/static/js/runtime-main.cad11387.js",
-    "runtime-main.js.map": "/bananagarammasala/static/js/runtime-main.cad11387.js.map",
-    "static/js/2.889f3b71.chunk.js": "/bananagarammasala/static/js/2.889f3b71.chunk.js",
-    "static/js/2.889f3b71.chunk.js.map": "/bananagarammasala/static/js/2.889f3b71.chunk.js.map",
-    "static/js/3.d5e83c67.chunk.js": "/bananagarammasala/static/js/3.d5e83c67.chunk.js",
-    "static/js/3.d5e83c67.chunk.js.map": "/bananagarammasala/static/js/3.d5e83c67.chunk.js.map",
-    "index.html": "/bananagarammasala/index.html",
-    "static/css/main.77449923.chunk.css.map": "/bananagarammasala/static/css/main.77449923.chunk.css.map",
-    "static/js/2.889f3b71.chunk.js.LICENSE.txt": "/bananagarammasala/static/js/2.889f3b71.chunk.js.LICENSE.txt",
-    "static/media/logo.86e7cd73.png": "/bananagarammasala/static/media/logo.86e7cd73.png"
+    "main.css": "/bgm/static/css/main.77449923.chunk.css",
+    "main.js": "/bgm/static/js/main.a1293982.chunk.js",
+    "main.js.map": "/bgm/static/js/main.a1293982.chunk.js.map",
+    "runtime-main.js": "/bgm/static/js/runtime-main.297aa417.js",
+    "runtime-main.js.map": "/bgm/static/js/runtime-main.297aa417.js.map",
+    "static/js/2.889f3b71.chunk.js": "/bgm/static/js/2.889f3b71.chunk.js",
+    "static/js/2.889f3b71.chunk.js.map": "/bgm/static/js/2.889f3b71.chunk.js.map",
+    "static/js/3.d5e83c67.chunk.js": "/bgm/static/js/3.d5e83c67.chunk.js",
+    "static/js/3.d5e83c67.chunk.js.map": "/bgm/static/js/3.d5e83c67.chunk.js.map",
+    "index.html": "/bgm/index.html",
+    "static/css/main.77449923.chunk.css.map": "/bgm/static/css/main.77449923.chunk.css.map",
+    "static/js/2.889f3b71.chunk.js.LICENSE.txt": "/bgm/static/js/2.889f3b71.chunk.js.LICENSE.txt",
+    "static/media/logo.86e7cd73.png": "/bgm/static/media/logo.86e7cd73.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cad11387.js",
+    "static/js/runtime-main.297aa417.js",
     "static/js/2.889f3b71.chunk.js",
     "static/css/main.77449923.chunk.css",
-    "static/js/main.f8c3b8c9.chunk.js"
+    "static/js/main.a1293982.chunk.js"
   ]
 }
