@@ -4,6 +4,8 @@ import { API_URL } from "../constants";
 import Swal from "sweetalert2";
 import "./levelselect.css";
 
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+
 function formatName(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
@@ -43,12 +45,14 @@ function attributeIcons() {
 export default function LevelSelect() {
   const [clueSets, setClueSets] = useState([]);
   const [clueSet, setClueSet] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     fetch(`${API_URL}/cluesets`)
       .then((res) => res.json())
       .then((response) => {
         setClueSets(response.cluesets);
+        setIsLoading(false);
       })
       .catch(console.log);
   }, []);
@@ -59,6 +63,10 @@ export default function LevelSelect() {
     );
     return cards;
   }, []);
+
+  if (isLoading) {
+    return <LoadingSpinner />;
+  }
 
   return clueSet ? (
     <Redirect to={`/play/${clueSet}`}></Redirect>

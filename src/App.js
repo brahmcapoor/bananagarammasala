@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 import SplashPage from "./SplashPage/SplashPage";
@@ -7,9 +7,8 @@ import LevelSelect from "./LevelSelect/LevelSelect";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
-        {/* <Game clueSet="test" /> */}
         <Switch>
           <Route path="/play/:clueSet">
             <Game />

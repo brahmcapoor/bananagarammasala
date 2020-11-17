@@ -2,16 +2,15 @@ import "./victory.css";
 import logo from "../img/logo.png";
 
 function BirthdayCongrats(props) {
-  const { videoURL } = props;
   return (
     <div>
       <h1>Happy Birthday, Melody!</h1>
-      <h2>Those clues were a group effort. So's this.</h2>
+      <h2>We couldn't all wish you in person. We still wanted to try. </h2>
       <iframe
         title="video"
         width="560"
         height="315"
-        src={videoURL}
+        src="https://www.youtube-nocookie.com/embed/brJfMWBTzjc?start=1"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -32,11 +31,7 @@ function DefaultCongrats(props) {
 export default function Victory(props) {
   return (
     <div className="victorycard">
-      {props.birthday ? (
-        <BirthdayCongrats videoURL="https://www.youtube.com/embed/8E4cQHejFq0" />
-      ) : (
-        <DefaultCongrats />
-      )}
+      {props.birthday ? <BirthdayCongrats /> : <DefaultCongrats />}
     </div>
   );
 }

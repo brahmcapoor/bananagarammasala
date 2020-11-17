@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 import Swal from "sweetalert2";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 import { ALPHABET, API_URL } from "../constants";
 import LetterPalette from "../LetterPalette/LetterPalette";
@@ -116,7 +117,7 @@ export default function Game(props) {
   };
 
   if (isLoading) {
-    return <h1>Loading...</h1>;
+    return <LoadingSpinner />;
   }
 
   return numCorrect < clues.length ? (
