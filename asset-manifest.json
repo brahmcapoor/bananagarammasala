@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bananagarammasala/static/css/main.ea8004a3.chunk.css",
-    "main.js": "/bananagarammasala/static/js/main.7731fd9b.chunk.js",
-    "main.js.map": "/bananagarammasala/static/js/main.7731fd9b.chunk.js.map",
+    "main.css": "/bananagarammasala/static/css/main.9b94b25d.chunk.css",
+    "main.js": "/bananagarammasala/static/js/main.26810516.chunk.js",
+    "main.js.map": "/bananagarammasala/static/js/main.26810516.chunk.js.map",
     "runtime-main.js": "/bananagarammasala/static/js/runtime-main.db904d21.js",
     "runtime-main.js.map": "/bananagarammasala/static/js/runtime-main.db904d21.js.map",
     "static/js/2.65eb266f.chunk.js": "/bananagarammasala/static/js/2.65eb266f.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.99fc1289.chunk.js": "/bananagarammasala/static/js/3.99fc1289.chunk.js",
     "static/js/3.99fc1289.chunk.js.map": "/bananagarammasala/static/js/3.99fc1289.chunk.js.map",
     "index.html": "/bananagarammasala/index.html",
-    "static/css/main.ea8004a3.chunk.css.map": "/bananagarammasala/static/css/main.ea8004a3.chunk.css.map",
+    "static/css/main.9b94b25d.chunk.css.map": "/bananagarammasala/static/css/main.9b94b25d.chunk.css.map",
     "static/js/2.65eb266f.chunk.js.LICENSE.txt": "/bananagarammasala/static/js/2.65eb266f.chunk.js.LICENSE.txt",
     "static/media/logo.86e7cd73.png": "/bananagarammasala/static/media/logo.86e7cd73.png"
   },
   "entrypoints": [
     "static/js/runtime-main.db904d21.js",
     "static/js/2.65eb266f.chunk.js",
-    "static/css/main.ea8004a3.chunk.css",
-    "static/js/main.7731fd9b.chunk.js"
+    "static/css/main.9b94b25d.chunk.css",
+    "static/js/main.26810516.chunk.js"
   ]
 }
