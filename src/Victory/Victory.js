@@ -10,11 +10,24 @@ function BirthdayCongrats(props) {
         title="video"
         width="560"
         height="315"
-        src="https://www.youtube-nocookie.com/embed/brJfMWBTzjc?start=1"
+        src="https://www.youtube.com/embed/gEkodMKN4Vw?start=1"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+    </div>
+  );
+}
+
+function ThreeYearsCongrats(props) {
+  return (
+    <div>
+      <img
+        alt="It's Us"
+        src={`${process.env.PUBLIC_URL}/itsus.png`}
+        className="anniv"
+      ></img>
+      <h1>You win!</h1>
     </div>
   );
 }
@@ -29,9 +42,11 @@ function DefaultCongrats(props) {
 }
 
 export default function Victory(props) {
-  return (
-    <div className="victorycard">
-      {props.birthday ? <BirthdayCongrats /> : <DefaultCongrats />}
-    </div>
-  );
+  if (props.birthday) {
+    return <BirthdayCongrats />;
+  }
+  if (props.anniversary) {
+    return <ThreeYearsCongrats />;
+  }
+  return <DefaultCongrats />;
 }

@@ -143,6 +143,9 @@ export default function Game(props) {
       </i>
     </div>
   ) : (
-    <Victory birthday={clueSet === "birthday"} />
+    <Victory
+      birthday={clueSet === "birthday"}
+      anniversary={clueSet === "3years"}
+    />
   );
 }
